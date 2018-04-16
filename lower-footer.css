@@ -1,0 +1,32 @@
+#lower-footer{
+	width:100%;
+	height:auto;
+	margin:auto;
+	display:table;
+	border-top:1px solid #3d3d3d;
+	text-align:center;
+}
+#lower-footer >ul{
+	font-family:TradeGothic LT;
+	display:table;
+	margin:auto;
+	padding:0;
+	margin-top:25px;
+	margin-bottom:25px;
+	//text-align:center;
+}
+.legal-item{
+	float:left;
+	margin-right:25px;
+	//text-align:center;
+}
+.legal-item:last-child{
+	float:left;
+	margin-right:0;
+}
+.legal-item > a{
+	text-decoration:none;
+	color:#929292;
+	font-size:0.75em;
+	//text-align:center;
+}

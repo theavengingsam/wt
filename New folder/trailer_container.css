@@ -1,0 +1,110 @@
+
+#trailer_container{
+	width:940px;
+	height:auto;
+	margin:auto;
+	margin-bottom:100px;
+}
+	#trailer_text>h1{
+		line-height:1em;
+		padding:20px 0;
+		color:white;
+		font-family:TradeGothic;
+		font-weight:bold;
+	}
+	#trailer_box{
+		border-top:2px solid #333;
+		border-left:2px solid #333;
+		border-right:10px solid #333;
+		border-bottom:10px solid #333;
+		width:100%;
+		height:auto;
+		display:table;
+		overflow:hidden;
+	}
+	#trailer{
+		width:68.085%;
+		height:344px;
+		float:left;
+	}
+	#trailer >iframe{
+		width:100%;
+		height:100%;
+	}
+	#trailer_description{
+	    padding:20px;
+		width:250px;
+		height:auto;
+		float:left;
+		font-family:TradeGothic LT;
+		font-weight:bold;
+	}
+	 #trailer_description>h1{
+		color: #f0141e;
+		font-family:TradeGothic;
+		font-weight:bold;
+		font-size:1.5625em;
+		margin-right: .5em;
+		display:block;
+	}
+	#trailer_description>h3{
+		font-size: 0.8125em;
+		display: block;
+		text-transform: capitalize;
+		font-family:TradeGothic LT;
+		color:white;
+	}
+	#trailer_description>h2{
+		margin: .3em 0 .2em;
+		font-family:TradeGothic LT;
+		font-weight:bold;
+		color:white;
+		//font-size:
+	}
+	#trailer_description>h2{
+		margin: .3em 0 .2em;
+		font-family:TradeGothic LT;
+		font-weight:bold;
+		color:white;
+		//font-size:
+	}
+	#trailer_description>h2 >a{
+		text-decoration:none;
+		color:inherit;
+	}
+@media only screen and (max-width: 940px) and (min-width: 0) {
+	#trailer_container{
+		width:95%;
+		margin:auto;
+		//border:1px solid white;
+		//box-sizing:border-box;
+	}
+	#trailer_box{
+		width:100%;
+		display:table;
+	}
+	#trailer{
+		width:100%;
+		height:330px;
+	}
+	#trailer_description{
+		box-sizing:border-box;
+		clear:both;
+		width:auto;
+		margin:auto;
+		height:auto;
+		display:table-cell;
+	}
+}
+@media only screen and (max-width: 514px) and (min-width: 0) {
+	#trailer{
+		width:100%;
+		height:260px;
+	}
+}
+@media only screen and (max-width: 320px) and (min-width: 0) {
+	#trailer{
+		width:100%;
+		height:160px;
+	}
+}

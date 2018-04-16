@@ -1,0 +1,200 @@
+	#reg-margin{
+		background: url(signupbgbig.jpg) top center no-repeat;
+		padding-top:50px;
+		padding-bottom:240px;
+	}
+	#reg-container{
+		width:auto;
+		margin:auto;
+		height:auto;
+		display:table;
+		background-color:white;
+		//margin-top:50px;
+		//margin-bottom:280px;
+	}
+	#reg-image{
+		float:left;
+		padding-top:338px;
+		padding-left:10px;
+		padding-right:10px;
+		width:auto;
+		margin:auto;
+		display:table-cell;
+		
+	}
+	#reg-image >div > img{
+		border-bottom:1px solid grey;
+		display:table;
+	}
+	#reg-inputs{
+		float:left;
+		padding:40px 60px;
+		display:table-cell;
+		border-left:2px solid grey;
+
+	}
+	#reg-inputs > *{
+		padding:10px;
+		display:block;
+	}
+	#regcreateacc {
+		font-family:TradeGothic LT;
+		font-weight: bold;
+		font-size:30px;
+		color:black;
+	}
+	.inputbox{
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	#regsubmit{
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.inputbox >input{
+		display:block;
+		font-size:15px;
+		width:500px;
+		height:32px;
+		padding:5px;
+	}
+	#fp{
+		color:red;
+		font-size:12px;
+		font-family:TradeGothic LT;
+		font-weight: bold;
+	}
+	#lp{
+		color:red;
+		font-size:12px;
+		font-family:TradeGothic LT;
+		font-weight: bold;
+	}
+	#up{
+		color:red;
+		font-size:12px;
+		font-family:TradeGothic LT;
+		font-weight: bold;
+	}
+	#ep{
+		color:red;
+		font-size:12px;
+		font-family:TradeGothic LT;
+		font-weight: bold;
+	}
+	
+	#pcp{
+		color:red;
+		font-size:12px;
+		font-family:TradeGothic LT;
+		font-weight: bold;
+	}
+	#pp{
+		width:500px;
+		font-size:12px;
+		color:#544747;
+		font-family:TradeGothic LT;
+		font-weight: bold;
+	}
+	#regsubmit >button{
+		display:block;
+		background-color:#b50f16;
+		width:406px;
+		height:47px;
+		font-size:18px;	
+	}
+	.button-default {
+		color: white;
+		background-color: #3e5a99;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 5px 10px;
+		margin: 10px;
+		border:0;
+		cursor:pointer;
+  
+	}
+
+	.button-slanted {
+		-ms-transform: skewX(-20deg);
+		-webkit-transform: skewX(-20deg);
+		transform: skewX(-20deg);
+	}
+
+	.button-slanted-content {
+		-ms-transform: skewX(20deg);
+		-webkit-transform: skewX(20deg);
+		transform: skewX(20deg);  
+		font-weight: bold;
+		font-family:TradeGothic LT;
+	}
+	@media only screen and (max-width:978px) and (min-width: 0){
+		#reg-margin{
+			padding-top:35px;
+			padding-bottom:150px;
+		}
+		#reg-image{
+			clear:both;
+			display:block;
+			width:654px;
+			padding:0;
+		}
+		#reg-inputs{
+			clear:both;
+			display:block;
+			border:0;
+		}
+	}
+	@media only screen and (max-width:654px) and (min-width: 0){
+		#reg-margin{
+			padding-top:0;
+			padding-bottom:0;
+		}
+		#reg-container{
+			width:100%;
+			box-sizing:border-box;
+		}
+		#reg-image{
+			clear:both;
+			display:block;
+			width:100%;
+			padding:0;
+			box-sizing:border-box;
+		}
+		#reg-inputs{
+			clear:both;
+			display:block;
+			border:0;
+			padding:0;
+			padding-top:20px;
+			padding-bottom:20px;
+			width:100%;
+			box-sizing:border-box;
+		}
+		.inputbox > input{
+			width:80%;box-sizing:border-box;
+		}
+		#pp{
+			width:80%;box-sizing:border-box;
+		}
+		#fp{
+			width:80%;box-sizing:border-box;
+		}
+		#lp{
+			width:80%;box-sizing:border-box;
+		}
+		#ep{
+			width:80%;box-sizing:border-box;
+		}
+		#pcp{
+			width:80%;box-sizing:border-box;
+		}
+		#regsubmit >button{
+			width:80%;box-sizing:border-box;
+		}
+		#up{
+			width:80%;box-sizing:border-box;
+		}
+		
+	}
+

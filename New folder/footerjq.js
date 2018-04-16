@@ -1,0 +1,26 @@
+$(document).ready(function(){
+    $("#Comics>div").click(function(){
+        $("#Comics>ul>li").slideToggle(500);
+    });
+});
+$(document).ready(function(){
+    $("#Characters>div").click(function(){
+        $("#Characters>ul>li").slideToggle(500);
+    });
+});
+$(document).ready(function(){
+    $("#Kids>div").click(function(){
+        $("#Kids>ul>li").slideToggle(500);
+    });
+});
+$(document).ready(function(){
+    $("#Marvel>div").click(function(){
+        $("#Marvel>ul>li").slideToggle(500);
+    });
+});
+$(document).ready(function(){
+    $("#Insider>div").click(function(){
+        $("#Insider>ul>li").slideToggle(500);
+    });
+});
+

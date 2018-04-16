@@ -1,0 +1,101 @@
+	#comics-container{
+		width:940px;
+		height:auto;
+		margin:auto;
+		background-color:white;
+		display:table;
+	}
+	#comics-container>h1{
+		line-height:1em;
+		padding:20px 0;
+		color:black;
+		font-family:TradeGothic;
+		font-weight:bold;
+	}
+	.comicdiv{
+		float:left;
+		height:auto;
+		margin:20px;
+		width:168px;
+		position :relative;
+	}
+	img.comics
+	{
+		border-color:#bababa;
+		border-top-width:1px;
+		border-left-width:1px;
+		border-bottom-width:5px;
+		border-right-width:5px;
+		border-style:solid;
+		width:168px;
+		height:252px;
+		opacity: 1;
+		display: block;
+		transition: .5s ease;
+		backface-visibility: hidden;
+	}
+	.comicdiv > .middle {
+		transition: .5s ease;
+		opacity: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		
+		/*
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		text-align: center;
+		display:block;
+		*/
+	}
+	 .comicdiv:hover img.comics {
+		opacity: 0.3;
+		//width:210px;
+		//height:315px;
+	}
+	/*
+	.comicdiv:hover{
+		width:210px;
+		height:auto;
+	}
+	*/
+	 .comicdiv:hover .middle {
+		opacity: 1;
+		transition: .5s ease;
+		//opacity: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		text-align: center;
+		display:block;
+		cursor:pointer;
+	}
+	.comicdiv:hover .middle:hover .text{
+		background-color: white;
+		color: #f0141e;
+		border:5px solid #f0141e;
+		border-radius:10px;
+		box-shadow:2px #f0141e;
+	}
+	.text {
+		text-decoration:none;
+		background-color: #f0141e;
+		color: white;
+		font-size: 1em;
+		padding: 0.5em 0.5em;
+		border:2px;
+		border-radius:10px;
+	}
+	span.author
+	{
+		color:grey;
+		font-weight:bold;
+	}
+	@media only screen and (max-width: 939px) and (min-width: 0){
+		#comics-container{
+		width:95%;
+		height:auto;
+		}
+	}
